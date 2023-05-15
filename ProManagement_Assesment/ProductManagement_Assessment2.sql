@@ -6,7 +6,7 @@ Create Table ProManagement
 (
 Id int identity primary key, 
 Product_Name varchar(20),
-Product_Description varchar(20),
+Product_Description varchar(50),
 Quantity int,
 Price int,
 )
